@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test</title>
+    <link rel="stylesheet" href="css/output.css">
+</head>
+<body class="">
+
+    <h1 class="text-3xl font-bold text-center text-gray-900">SELAMAT DATANG DI GAME GABUT</h1>
+    <form class="mt-20 flex justify-center" id="form">
+        <input class="border border-solid p-2 mx-3" type="text" name="nama" id="nama" placeholder="Masukkan nama anda" required> 
+        <button type="submit" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">Submit</button>
+    </form>
+    <div class="h-screen flex my-2 mx-2 justify-center items-center  ">
+        <div class="bg-green-500 p-2 rounded-lg  ">
+            <button class="bg-red-700 rounded-lg p-2 " id="demo" onclick="button1()">
+                Button 1
+            </button>
+            <button class="bg-blue-600 rounded-lg p-2 " id="btn2" onclick="button2()">
+                Button 2
+            </button>
+            <button class="bg-yellow-500 rounded-lg p-2">
+                Button 3
+            </button>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+ <script src="js/main.js"></script>   
+</body>
+</html>
